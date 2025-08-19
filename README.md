@@ -53,6 +53,7 @@ public class GongRui : StrategyEffect, IMultipleVariantEffect
     {
         IsPostiveEffect = true;
         Name = "攻锐";
+        WeightModification=2;//出现权重增加，必其他计略额外多200%的出现概率
     }
 
     // 触发：描述文本；效果：（见方法体）
@@ -1547,3 +1548,4 @@ public class TaHuaZhuiYueEffect : StrategyEffect
 
 
  
+
