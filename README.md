@@ -2,6 +2,15 @@
 
 > 本教程基于示例文件完整展示其源码并逐个解析功能点，帮助你快速编写并发布自定义计略。
 
+## 文件目录结构
+
+```
+MiniMartialWorld-CustomStrategy
+├─ DLLBuilder/           # 你的 C# Mod 工程（编译成 .dll）
+├─ ContentSample/        # 创意工坊示例（放置编译好的 .dll 与预览图）
+└─ README.md             # 本说明（你正在看）
+```
+
 ## 目录
 - [计略框架速览](#计略框架速览)
 - [制作流程](#制作流程)
@@ -1548,4 +1557,5 @@ public class TaHuaZhuiYueEffect : StrategyEffect
 
 
  
+
 
